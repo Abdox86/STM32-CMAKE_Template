@@ -2,8 +2,6 @@
 ## _CMAKE Tamplate For STM32 Bare-Metal Programming_
 
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
 Creating STM32 Bare-Metal project could be overwhalming, specially in situation when a solution needed to be belt from scratch, writing Makefile or CMAKE files is programming overhead, to avoid such thing this repo provides simple & effective solution to be used out of the bag. 
 - It's free of any libraries or any firmware like (HAL or CMSIS)
 - Portable to any STM32 device.
@@ -93,7 +91,7 @@ If all the above tools are installed and working proberly then you can proceed t
         ```
          change the command up to your need.
 
-## Cretids
-## Matej Blagšič [GitHub](https://github.com/prtzl/stm32-cmake) --> STM32-CMAKE
+### Cretids
+#### Matej Blagšič [GitHub](https://github.com/prtzl/stm32-cmake) --> STM32-CMAKE
 
 
