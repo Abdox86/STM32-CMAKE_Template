@@ -28,7 +28,7 @@ If all the above tools are installed and working proberly then you can proceed t
 ## _Usage_
 
 -  ### **Poll the Repo**
-    ```repo```
+    ```git clone https://github.com/Abdox86/STM32-CMAKE_Template.git```
 - ### **setup.cmake**
     - Open the file ```setup.cmake```.
     - First two lines is to setup the project name & directory. 
