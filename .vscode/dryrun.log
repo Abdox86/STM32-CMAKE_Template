@@ -1,0 +1,14 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/abdulftahaltershany/EmbeddedProjects/STM32/sample'
+make -C build --no-print-directory
+/usr/bin/cmake -P /home/abdulftahaltershany/EmbeddedProjects/STM32/sample/build/CMakeFiles/VerifyGlobs.cmake
+/usr/bin/cmake -S/home/abdulftahaltershany/EmbeddedProjects/STM32/sample -B/home/abdulftahaltershany/EmbeddedProjects/STM32/sample/build --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/abdulftahaltershany/EmbeddedProjects/STM32/sample/build/CMakeFiles /home/abdulftahaltershany/EmbeddedProjects/STM32/sample/build/CMakeFiles/progress.marks
+make -f CMakeFiles/Makefile2 all
+make -f CMakeFiles/sample-f411.dir/build.make CMakeFiles/sample-f411.dir/depend
+cd /home/abdulftahaltershany/EmbeddedProjects/STM32/sample/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/abdulftahaltershany/EmbeddedProjects/STM32/sample /home/abdulftahaltershany/EmbeddedProjects/STM32/sample /home/abdulftahaltershany/EmbeddedProjects/STM32/sample/build /home/abdulftahaltershany/EmbeddedProjects/STM32/sample/build /home/abdulftahaltershany/EmbeddedProjects/STM32/sample/build/CMakeFiles/sample-f411.dir/DependInfo.cmake --color=
+make -f CMakeFiles/sample-f411.dir/build.make CMakeFiles/sample-f411.dir/build
+/usr/bin/cmake -E cmake_echo_color --switch= --progress-dir=/home/abdulftahaltershany/EmbeddedProjects/STM32/sample/build/CMakeFiles --progress-num=1,2,3 "Built target sample-f411"
+/usr/bin/cmake -E cmake_progress_start /home/abdulftahaltershany/EmbeddedProjects/STM32/sample/build/CMakeFiles 0
+make: Leaving directory '/home/abdulftahaltershany/EmbeddedProjects/STM32/sample'
+ 
