@@ -50,14 +50,14 @@ If all the above tools are installed and working proberly then you can proceed t
             - ```-mfloat=hard``` for hardware based. 
             - ```-mfloat=soft``` for software based. 
         - Floating point arithmetic archithecture options, ```-mfpu```, i.e ```-mfpu=fpv4-sp-d16```, fpu version 4, single precision.
-        - STM32 startup file, and linker script.
+     - STM32 startup file, and linker script.
         ```cmake
         #boot file
         set(STARTUP_SCRIPT <file>) # example ${CMAKE_CURRENT_SOURCE_DIR}/boot/startup_stm32f411xe.s
         #linker file
         set(LINKER_SCRIPT <file>) # ${CMAKE_CURRENT_SOURCE_DIR}/core/linker/STM32F411CEUx_FLASH.ld
         ```
-        - Include files directories.
+     - Include files directories.
         ```cmake
         #include files directory for the project 
         set(PROJECT_INC_DIR <include-directory>) # example ${CMAKE_CURRENT_SOURCE_DIR}/app/inc
@@ -65,7 +65,7 @@ If all the above tools are installed and working proberly then you can proceed t
         #include files directory for your firmware (i.e. STM32CUBEMX) 
         set(SYSTEM_INC_DIR <include-directory>) # example ${CMAKE_CURRENT_SOURCE_DIR}/core/drivers/inc 
         ```
-        - Source files.
+     - Source files.
         ```cmake
         #project source files 
         set(PROJECT_SRC_FILES <source-files>) # example ${CMAKE_CURRENT_SOURCE_DIR}/app/*.c
