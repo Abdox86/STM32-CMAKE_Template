@@ -1,6 +1,7 @@
 # STM32-CMAKE_TEMPLATE
 ## _CMAKE Tamplate For STM32 Bare-Metal Programming_
 
+- Tested Platforms ``` Ubuntu 20.04 ```
 
 Creating STM32 Bare-Metal project could be overwhalming, specially in situation when a solution needed to be belt from scratch, writing Makefile or CMAKE files is programming overhead, to avoid such thing this repo provides simple & effective solution to be used out of the bag. 
 - It's free of any libraries or any firmware like (HAL or CMSIS)
@@ -20,7 +21,7 @@ This structue is just my concept of creating projects, however you can create an
 - ```setup.cmake``` user configuraton setup to use cmake. **More on this file in Usage** .
 
 ## _Dependencies_
-- Make sure arm gnu toolchain is installed, run ``` arm-none-eabi-gcc --version``` in terminal, output should be the gcc version.
+- Make sure arm gnu toolchain is installed and up to date, run ``` arm-none-eabi-gcc --version``` in terminal, output should be the gcc version.
 - Make sure Make & CMAKE is installed & update to date, run ```make -v```, and ```cmake -v```.
 
 If all the above tools are installed and working proberly then you can proceed to the Usage
